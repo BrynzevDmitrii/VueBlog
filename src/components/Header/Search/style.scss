@@ -1,0 +1,41 @@
+@import  '../../../assets/varieble/variebles.scss';
+.wrapper_search_input{
+    background-color: $background-color-secondary;
+
+    align-items: center;
+    border-color: $border-color-primary;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    justify-content: flex-end;  
+
+}
+
+.search_input{
+    font-size: $font-size-text-secondary;
+    font-weight: $font-weight-medium;
+    letter-spacing: $letter-spacing-text-secondary;
+    line-height: $line-height-text-secondary;
+    padding: 11px 16px;
+    border: none;
+    border-radius: 8px;
+    
+   
+}
+
+.search_input_icon{
+    padding-bottom: 11px;
+    padding-right: 16px;
+    padding-top: 11px;
+}
+.search_simvol::before{
+    content: '';
+    display: flex;
+    height: 16px;
+    width: 16px;
+    background-image: url('../../../assets/images/search-interface-symbol.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}

@@ -1,0 +1,46 @@
+@import  '../../../assets/varieble/variebles.scss';
+
+    .login_wrapper{
+        align-items: center;
+        display: flex;
+        gap: 26px;
+        justify-content: flex-end;
+
+        font-size: $font-size-text-secondary;
+        font-weight: $font-weight-medium;
+      
+        letter-spacing: $letter-spacing-text-secondary;
+        line-height: $line-height-text-secondary;
+
+    }
+    .bell::before{
+        content: '';
+        display: flex;
+        height: 24px;
+        width: 24px;
+        background-image: url('../../../assets/images/bell.png');
+        fill: $color-text-tertiary;
+        color: $color-text-tertiary;
+        background-repeat: no-repeat;
+        cursor: pointer;
+
+    }
+
+    .user::before{
+        content: '';
+        display: flex;
+        height: 24px;
+        width: 24px;
+        background-image: url('../../../assets/images/user.png');
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+    .login{
+        font-size: $font-size-text-secondary;
+        font-weight: $font-weight-medium;
+        letter-spacing: $letter-spacing-text-secondary;
+        line-height: $line-height-text-secondary;
+        padding: 11px 16px;
+        cursor: pointer;
+    }

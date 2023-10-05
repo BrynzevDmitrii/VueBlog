@@ -1,0 +1,44 @@
+@import "../../../assets/varieble/variebles.scss";
+
+
+.post_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: $color-item;
+    stroke: $color-item;
+    background-color: $background-color-secondary;
+    border: 1px solid $border-color-primary;
+    border-radius: 12px;
+    color: $color-text-primary;
+    font-size: $font-size-text-secondary;
+    font-weight: $font-weight-medium;
+    letter-spacing: $letter-spacing-text-secondary;
+    line-height: $line-height-text-secondary;
+    padding: 11px 16px;
+    transition: all .25s ease;
+    cursor: pointer;
+
+
+    span{
+        display: flex;
+        font-size: $font-size-text-secondary;
+        font-weight: $font-weight-medium;
+        letter-spacing: $letter-spacing-text-secondary;
+        line-height: $line-height-text-secondary;
+       
+
+    }
+}
+
+.pen::before{
+    content: '';
+   display: flex;
+    padding-left: 16px;
+    height: 16px;
+    width: 16px;
+    background-image: url('../../../assets/images/pencil.png');
+    background-repeat: no-repeat;
+    
+    
+}
