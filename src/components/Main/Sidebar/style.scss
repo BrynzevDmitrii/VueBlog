@@ -1,0 +1,46 @@
+@import "../../../assets/varieble/variebles.scss";
+
+nav{
+    display: flex;
+    flex-direction: column;
+    max-width: 180px;
+}
+
+.sidebar{
+    height: calc(100vh - 104px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: sticky;
+    top: 96px;
+    z-index: 5;
+}
+
+.aside_menu{
+    display: flex;
+    flex-direction: column;
+    max-width: 180px;
+    &__item {
+
+            align-items: center;
+        display: flex;
+        gap: 10px;
+        padding-bottom: 8px;
+        padding-top: 30px;
+        position: relative;
+        a{
+            fill: $color-item;
+            stroke: $color-item;
+            color: $color-text-primary;
+            cursor: pointer;
+            font-size: $font-size-text-secondary;
+            font-weight: $font-weight-medium;
+            letter-spacing: $letter-spacing-text-secondary;
+            line-height: $line-height-text-secondary;
+            position: relative;
+            text-decoration: none;
+
+        }
+        
+       
+    }
+}
