@@ -1,4 +1,4 @@
-
+@import "./assets/varieble/variebles.scss";
 @font-face {
 	font-family: Helvetica;
 	src: url(../src/assets/fonts/helvetica_regular.otf);
@@ -7,9 +7,6 @@
 	font-family:Inter ;
 	src: url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 }
-
-
-
 
 
 html, body, div, span, applet, object, iframe,
@@ -39,6 +36,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	font-family: Inter,Helvetica,Arial,sans-serif;
+	background-color: $background-color-primary
 }
 ol, ul {
 	list-style: none;
@@ -55,4 +53,5 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 

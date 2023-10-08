@@ -29,7 +29,8 @@ const RAW_RUNTIME_STATE =
           ["@vitejs/plugin-vue", "virtual:837160f7b6b0180ff1bb87e233581efcb974eb110f1bb0ecc96adb6df4fa8f97af0dd39fe97eeb80040e38d8eee1e08085bb55434e9f04c404c01e74ba447ed1#npm:4.4.0"],\
           ["sass", "npm:1.68.0"],\
           ["vite", "virtual:837160f7b6b0180ff1bb87e233581efcb974eb110f1bb0ecc96adb6df4fa8f97af0dd39fe97eeb80040e38d8eee1e08085bb55434e9f04c404c01e74ba447ed1#npm:4.4.10"],\
-          ["vue", "npm:3.3.4"]\
+          ["vue", "npm:3.3.4"],\
+          ["vue-router", "virtual:837160f7b6b0180ff1bb87e233581efcb974eb110f1bb0ecc96adb6df4fa8f97af0dd39fe97eeb80040e38d8eee1e08085bb55434e9f04c404c01e74ba447ed1#npm:4.2.5"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -409,6 +410,15 @@ const RAW_RUNTIME_STATE =
           ["@vue/compiler-ssr", "npm:3.3.4"],\
           ["@vue/compiler-dom", "npm:3.3.4"],\
           ["@vue/shared", "npm:3.3.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@vue/devtools-api", [\
+      ["npm:6.5.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@vue-devtools-api-npm-6.5.0-0dc0468299-9.zip/node_modules/@vue/devtools-api/",\
+        "packageDependencies": [\
+          ["@vue/devtools-api", "npm:6.5.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1925,6 +1935,29 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["vue-router", [\
+      ["npm:4.2.5", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/vue-router-npm-4.2.5-3479f41e41-9.zip/node_modules/vue-router/",\
+        "packageDependencies": [\
+          ["vue-router", "npm:4.2.5"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:837160f7b6b0180ff1bb87e233581efcb974eb110f1bb0ecc96adb6df4fa8f97af0dd39fe97eeb80040e38d8eee1e08085bb55434e9f04c404c01e74ba447ed1#npm:4.2.5", {\
+        "packageLocation": "./.yarn/__virtual__/vue-router-virtual-f7fba38ad3/4/AppData/Local/Yarn/Berry/cache/vue-router-npm-4.2.5-3479f41e41-9.zip/node_modules/vue-router/",\
+        "packageDependencies": [\
+          ["vue-router", "virtual:837160f7b6b0180ff1bb87e233581efcb974eb110f1bb0ecc96adb6df4fa8f97af0dd39fe97eeb80040e38d8eee1e08085bb55434e9f04c404c01e74ba447ed1#npm:4.2.5"],\
+          ["@types/vue", null],\
+          ["@vue/devtools-api", "npm:6.5.0"],\
+          ["vue", "npm:3.3.4"]\
+        ],\
+        "packagePeers": [\
+          "@types/vue",\
+          "vue"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["vuetest", [\
       ["workspace:.", {\
         "packageLocation": "./",\
@@ -1933,7 +1966,8 @@ const RAW_RUNTIME_STATE =
           ["@vitejs/plugin-vue", "virtual:837160f7b6b0180ff1bb87e233581efcb974eb110f1bb0ecc96adb6df4fa8f97af0dd39fe97eeb80040e38d8eee1e08085bb55434e9f04c404c01e74ba447ed1#npm:4.4.0"],\
           ["sass", "npm:1.68.0"],\
           ["vite", "virtual:837160f7b6b0180ff1bb87e233581efcb974eb110f1bb0ecc96adb6df4fa8f97af0dd39fe97eeb80040e38d8eee1e08085bb55434e9f04c404c01e74ba447ed1#npm:4.4.10"],\
-          ["vue", "npm:3.3.4"]\
+          ["vue", "npm:3.3.4"],\
+          ["vue-router", "virtual:837160f7b6b0180ff1bb87e233581efcb974eb110f1bb0ecc96adb6df4fa8f97af0dd39fe97eeb80040e38d8eee1e08085bb55434e9f04c404c01e74ba447ed1#npm:4.2.5"]\
         ],\
         "linkType": "SOFT"\
       }]\

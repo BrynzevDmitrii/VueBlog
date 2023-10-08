@@ -3,7 +3,6 @@
         <div class="icon_pen"></div>
         <div class="pen"/>
         <span>Написать пост</span>
-        
     </button>
 </template>
 <script>

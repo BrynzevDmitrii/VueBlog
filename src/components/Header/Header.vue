@@ -18,7 +18,7 @@
 <script>
     import Search from './Search/Search.vue';
     import ButtonCreatePost from './ButtonCreatePost/ButtonCreatePost.vue';
-    import Login from './Login/Login.vue';
+    import Login from './login/login.vue';
 export default {
     
     components:{
