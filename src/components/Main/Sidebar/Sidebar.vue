@@ -2,12 +2,11 @@
     <aside class="sidebar">
         <nav>
         <ul class="aside_menu" >
-                <li v-for="page in sideBarPages" class='aside_menu__item'>
+                <li v-for="(page,ind) in sideBarPages" :key= ind  class='aside_menu__item'>
                 <img :src= "`src/assets/images/${page.iconPath}`"  alt='item-icon'/>
                     <router-link :to=page.path>
                     {{page.page}}
                     </router-link>
-               
                 </li>
             </ul>
             

@@ -21,7 +21,7 @@ const router = createRouter({
     {
     path: '/bookmarks',
     name: 'bookmarks',
-    component: ListArticles
+    component: Bookmarks
     },
     {
     path: '/events',
@@ -35,6 +35,6 @@ const router = createRouter({
     }
     ],
     history: createWebHistory()
-   })
+})
 
-   export default router;
+export default router;

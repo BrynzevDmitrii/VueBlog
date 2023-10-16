@@ -1,0 +1,36 @@
+@import "../../assets/varieble/variebles.scss";
+.post_wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 840px;
+  background-color: $background-color-secondary;
+  border: 1px solid $border-color-primary;
+  border-radius: 12px;
+  padding: 16px 24px;
+  width: 100%;
+}
+
+.post_title {
+  -webkit-tap-highlight-color: transparent;
+  color: $color-text-primary;
+  font-size: $font-size-h4;
+  font-weight: $font-weight-h4;
+  letter-spacing: $letter-spacing-h4;
+  line-height: $line-height-h4;
+}
+
+.post_description {
+  color: $color-text-primary;
+  font-size: $font-size-text-primary;
+  font-weight: $font-weight-regular;
+  letter-spacing: $letter-spacing-text-primary;
+  line-height: $line-height-text-primary;
+}
+
+.post_img{
+  display: flex;
+  justify-content: center;
+  img {
+    border-radius: 20px;
+  }
+}
