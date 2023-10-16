@@ -6,7 +6,7 @@ import Courses from '../pages/courses/Courses.vue'
 import My from '../pages/my/My.vue'
 import ListArticles from '../pages/listArticles/ListArticles.vue'
 
-export const router = createRouter({
+const router = createRouter({
     routes: [
     {
     path: '/',
@@ -21,7 +21,7 @@ export const router = createRouter({
     {
     path: '/bookmarks',
     name: 'bookmarks',
-    component: Bookmarks
+    component: ListArticles
     },
     {
     path: '/events',

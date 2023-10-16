@@ -27,10 +27,12 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@vitejs/plugin-vue", "virtual:837160f7b6b0180ff1bb87e233581efcb974eb110f1bb0ecc96adb6df4fa8f97af0dd39fe97eeb80040e38d8eee1e08085bb55434e9f04c404c01e74ba447ed1#npm:4.4.0"],\
+          ["axios", "npm:1.5.1"],\
           ["sass", "npm:1.68.0"],\
           ["vite", "virtual:837160f7b6b0180ff1bb87e233581efcb974eb110f1bb0ecc96adb6df4fa8f97af0dd39fe97eeb80040e38d8eee1e08085bb55434e9f04c404c01e74ba447ed1#npm:4.4.10"],\
           ["vue", "npm:3.3.4"],\
-          ["vue-router", "virtual:837160f7b6b0180ff1bb87e233581efcb974eb110f1bb0ecc96adb6df4fa8f97af0dd39fe97eeb80040e38d8eee1e08085bb55434e9f04c404c01e74ba447ed1#npm:4.2.5"]\
+          ["vue-router", "virtual:837160f7b6b0180ff1bb87e233581efcb974eb110f1bb0ecc96adb6df4fa8f97af0dd39fe97eeb80040e38d8eee1e08085bb55434e9f04c404c01e74ba447ed1#npm:4.2.5"],\
+          ["vuex", "virtual:837160f7b6b0180ff1bb87e233581efcb974eb110f1bb0ecc96adb6df4fa8f97af0dd39fe97eeb80040e38d8eee1e08085bb55434e9f04c404c01e74ba447ed1#npm:4.1.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -421,6 +423,13 @@ const RAW_RUNTIME_STATE =
           ["@vue/devtools-api", "npm:6.5.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:6.5.1", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/@vue-devtools-api-npm-6.5.1-a00bfbc22f-9.zip/node_modules/@vue/devtools-api/",\
+        "packageDependencies": [\
+          ["@vue/devtools-api", "npm:6.5.1"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@vue/reactivity", [\
@@ -607,6 +616,27 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["asynckit", [\
+      ["npm:0.4.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/asynckit-npm-0.4.0-c718858525-9.zip/node_modules/asynckit/",\
+        "packageDependencies": [\
+          ["asynckit", "npm:0.4.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["axios", [\
+      ["npm:1.5.1", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/axios-npm-1.5.1-6bc68e7d25-9.zip/node_modules/axios/",\
+        "packageDependencies": [\
+          ["axios", "npm:1.5.1"],\
+          ["follow-redirects", "virtual:6bc68e7d25b7055a51c269c1fa5648c8246286db1b7949168396e2ffbde7ed58cf742783c99b4e376ba9a3e96fcc4d029f96bd1b532b606b5055545461060ec6#npm:1.15.3"],\
+          ["form-data", "npm:4.0.0"],\
+          ["proxy-from-env", "npm:1.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["balanced-match", [\
       ["npm:1.0.2", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/balanced-match-npm-1.0.2-a53c126459-9.zip/node_modules/balanced-match/",\
@@ -738,6 +768,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["combined-stream", [\
+      ["npm:1.0.8", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/combined-stream-npm-1.0.8-dc14d4a63a-9.zip/node_modules/combined-stream/",\
+        "packageDependencies": [\
+          ["combined-stream", "npm:1.0.8"],\
+          ["delayed-stream", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["concat-map", [\
       ["npm:0.0.1", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/concat-map-npm-0.0.1-85a921b7ee-9.zip/node_modules/concat-map/",\
@@ -796,6 +836,15 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@types/supports-color",\
           "supports-color"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["delayed-stream", [\
+      ["npm:1.0.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/delayed-stream-npm-1.0.0-c5a4c4cc02-9.zip/node_modules/delayed-stream/",\
+        "packageDependencies": [\
+          ["delayed-stream", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -921,6 +970,28 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["follow-redirects", [\
+      ["npm:1.15.3", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/follow-redirects-npm-1.15.3-ca69c47b72-9.zip/node_modules/follow-redirects/",\
+        "packageDependencies": [\
+          ["follow-redirects", "npm:1.15.3"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:6bc68e7d25b7055a51c269c1fa5648c8246286db1b7949168396e2ffbde7ed58cf742783c99b4e376ba9a3e96fcc4d029f96bd1b532b606b5055545461060ec6#npm:1.15.3", {\
+        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-ddb0bfe676/4/AppData/Local/Yarn/Berry/cache/follow-redirects-npm-1.15.3-ca69c47b72-9.zip/node_modules/follow-redirects/",\
+        "packageDependencies": [\
+          ["follow-redirects", "virtual:6bc68e7d25b7055a51c269c1fa5648c8246286db1b7949168396e2ffbde7ed58cf742783c99b4e376ba9a3e96fcc4d029f96bd1b532b606b5055545461060ec6#npm:1.15.3"],\
+          ["@types/debug", null],\
+          ["debug", null]\
+        ],\
+        "packagePeers": [\
+          "@types/debug",\
+          "debug"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["foreground-child", [\
       ["npm:3.1.1", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/foreground-child-npm-3.1.1-77e78ed774-9.zip/node_modules/foreground-child/",\
@@ -928,6 +999,18 @@ const RAW_RUNTIME_STATE =
           ["foreground-child", "npm:3.1.1"],\
           ["cross-spawn", "npm:7.0.3"],\
           ["signal-exit", "npm:4.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["form-data", [\
+      ["npm:4.0.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/form-data-npm-4.0.0-916facec2d-9.zip/node_modules/form-data/",\
+        "packageDependencies": [\
+          ["form-data", "npm:4.0.0"],\
+          ["asynckit", "npm:0.4.0"],\
+          ["combined-stream", "npm:1.0.8"],\
+          ["mime-types", "npm:2.1.35"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1283,6 +1366,25 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["mime-db", [\
+      ["npm:1.52.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/mime-db-npm-1.52.0-b5371d6fd2-9.zip/node_modules/mime-db/",\
+        "packageDependencies": [\
+          ["mime-db", "npm:1.52.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mime-types", [\
+      ["npm:2.1.35", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/mime-types-npm-2.1.35-dd9ea9f3e2-9.zip/node_modules/mime-types/",\
+        "packageDependencies": [\
+          ["mime-types", "npm:2.1.35"],\
+          ["mime-db", "npm:1.52.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["minimatch", [\
       ["npm:3.1.2", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/minimatch-npm-3.1.2-9405269906-9.zip/node_modules/minimatch/",\
@@ -1570,6 +1672,15 @@ const RAW_RUNTIME_STATE =
           ["promise-retry", "npm:2.0.1"],\
           ["err-code", "npm:2.0.3"],\
           ["retry", "npm:0.12.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["proxy-from-env", [\
+      ["npm:1.1.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/proxy-from-env-npm-1.1.0-c13d07f26b-9.zip/node_modules/proxy-from-env/",\
+        "packageDependencies": [\
+          ["proxy-from-env", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1964,12 +2075,37 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["vuetest", "workspace:."],\
           ["@vitejs/plugin-vue", "virtual:837160f7b6b0180ff1bb87e233581efcb974eb110f1bb0ecc96adb6df4fa8f97af0dd39fe97eeb80040e38d8eee1e08085bb55434e9f04c404c01e74ba447ed1#npm:4.4.0"],\
+          ["axios", "npm:1.5.1"],\
           ["sass", "npm:1.68.0"],\
           ["vite", "virtual:837160f7b6b0180ff1bb87e233581efcb974eb110f1bb0ecc96adb6df4fa8f97af0dd39fe97eeb80040e38d8eee1e08085bb55434e9f04c404c01e74ba447ed1#npm:4.4.10"],\
           ["vue", "npm:3.3.4"],\
-          ["vue-router", "virtual:837160f7b6b0180ff1bb87e233581efcb974eb110f1bb0ecc96adb6df4fa8f97af0dd39fe97eeb80040e38d8eee1e08085bb55434e9f04c404c01e74ba447ed1#npm:4.2.5"]\
+          ["vue-router", "virtual:837160f7b6b0180ff1bb87e233581efcb974eb110f1bb0ecc96adb6df4fa8f97af0dd39fe97eeb80040e38d8eee1e08085bb55434e9f04c404c01e74ba447ed1#npm:4.2.5"],\
+          ["vuex", "virtual:837160f7b6b0180ff1bb87e233581efcb974eb110f1bb0ecc96adb6df4fa8f97af0dd39fe97eeb80040e38d8eee1e08085bb55434e9f04c404c01e74ba447ed1#npm:4.1.0"]\
         ],\
         "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["vuex", [\
+      ["npm:4.1.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/vuex-npm-4.1.0-c1d51099be-9.zip/node_modules/vuex/",\
+        "packageDependencies": [\
+          ["vuex", "npm:4.1.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:837160f7b6b0180ff1bb87e233581efcb974eb110f1bb0ecc96adb6df4fa8f97af0dd39fe97eeb80040e38d8eee1e08085bb55434e9f04c404c01e74ba447ed1#npm:4.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/vuex-virtual-b3f396b53d/4/AppData/Local/Yarn/Berry/cache/vuex-npm-4.1.0-c1d51099be-9.zip/node_modules/vuex/",\
+        "packageDependencies": [\
+          ["vuex", "virtual:837160f7b6b0180ff1bb87e233581efcb974eb110f1bb0ecc96adb6df4fa8f97af0dd39fe97eeb80040e38d8eee1e08085bb55434e9f04c404c01e74ba447ed1#npm:4.1.0"],\
+          ["@types/vue", null],\
+          ["@vue/devtools-api", "npm:6.5.1"],\
+          ["vue", "npm:3.3.4"]\
+        ],\
+        "packagePeers": [\
+          "@types/vue",\
+          "vue"\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["which", [\
